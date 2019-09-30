@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+*{
+	margin:0px;
+}
+.Fondo{
+
+	margin-top:-10px;
+	position: absolute;
+		background-image: url("../imagen/contact/2.jpg");
+		background-repeat: no-repeat;
+		 background-size: 100% 100%;
+		width: 100%;
+		height: 135%;
+		z-index: -1000;
+}
+.ColorFondo{
+	position: absolute;
+	margin-top:-10px;
+	background: #6600FF;
+	opacity: 0.5;
+	width: 100%;
+height: 135%;
+	z-index: -500;
+	}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+
+}
+.logo{
+	width: 10%;
+}
+.formulario{
+	margin-top: 40px;
+margin-left: 5%;
+width: 50%;
+display: block;
+background-color: white;
+border: 3px solid #6139a6;
+border-radius: 8px;
+    height: auto;
+    padding: 5px;
+}
+label{
+	font-family: 'Oleo Script', cursive;
+	width: 100%;
+}
+input,textarea{
+	border:none;
+}
+input[type="text"],input[type="email"]{
+	font-family: 'Oleo Script', cursive;
+	height: 30px;
+	width: 92%;
+	border-bottom: 1.5px solid #6600FF;
+	border-radius: 2px;
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+input:focus{
+	border: 1px solid #6600FF;
+}
+textarea{
+	height: 30px;
+	width: 92%;
+	border-bottom: 1.5px solid #6600FF;
+	border-radius: 2px;
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+textarea:focus{
+	border: 1px solid #6600FF;
+	height: 100px;
+}
+
+input[type="submit"]{
+	font-family: 'Oleo Script', cursive;
+color: white;
+    background-color: #421093;
+    border-radius: 8px;
+    height: 23px;
+    margin-top: 10px;
+
+}
+div>h1{
+	font-family: 'Oleo Script', cursive;
+	margin-left: 10%;
+	color: white;
+}
+.barra{
+	display: flex;
+width: 40%;
+}
+
+a{
+	margin-left: 80%;
+	color :white;
+}
+.rotate>img{
+	width: 20px;
+}
+.rotate>h3{
+	color: white;
+}
+.rotate{
+	margin-left: 3%;
+	margin-top: 5%;
+	width: 8%;
+	 -ms-transform: rotate(270deg); /* IE 9 */
+        -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+         transform: rotate(270deg);
+}
+.b>img{
+	margin-left: 3%;
+	margin-top: 5%;
+	width: 150px;
+}
+.b{
+	    color: white;
+		display: flex;
+}
+.letras{
+	float: right;
+	width:400px;
+	font-size: 1350%;
+	color: white;
+		 -ms-transform: rotate(270deg); /* IE 9 */
+        -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+         transform: rotate(270deg);
+}
+p{
+
+	font-family: 'Archivo Black', sans-serif;
+}
+.p>h2{
+	margin-left: 2%;
+}
